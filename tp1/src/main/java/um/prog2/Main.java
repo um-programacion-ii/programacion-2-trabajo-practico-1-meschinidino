@@ -14,5 +14,6 @@ public class Main {
         Vehiculo vehiculo3 = new Vehiculo(3.12312, 2019, "hyundai", "AD 123 AA");
         System.out.println("info para el vehiculo 3");
         vehiculo3.mostrarInformacion();
+
     }
 }
