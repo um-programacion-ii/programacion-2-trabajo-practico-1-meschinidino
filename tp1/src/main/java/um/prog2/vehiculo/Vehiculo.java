@@ -47,9 +47,4 @@ public class Vehiculo {
     public void setPatente(String patente) {
         this.patente = patente;
     }
-
-
-    public void mostrarInformacion(){
-        System.out.printf("Marca: %s \nPatente: %s\n Anio: %d\n capacidadCargaKg: %f\n" , marca, patente, anio, capacidadCargaKg);
-    }
 }
