@@ -17,7 +17,7 @@ public class Main {
         Vehiculo vehiculo3 = new Vehiculo(3.12312, 2019, "hyundai", "AD 123 AA");
         System.out.println("info para el vehiculo 3");
         VehiculoPrinter.mostrarInfoVehiculo(vehiculo3);
-        Vehiculo vehiculo4 = new Camion(4.12312, 2020, "hyundai", "AE 123 AA", true);
-
+        Camion vehiculo4 = new Camion(4.12312, 2020, "hyundai", "AE 123 AA", true);
+        VehiculoPrinter.mostrarInfoVehiculo(vehiculo4);
     }
 }
