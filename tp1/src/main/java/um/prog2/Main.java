@@ -28,6 +28,7 @@ public class Main {
                 }
             }
         }
+        VehiculoPrinter.mostrarInfoVehiculo(getVehiculo(vehiculos, "GSC 123"));
     }
 
     private static ArrayList<Vehiculo> getVehiculos() {
@@ -45,5 +46,16 @@ public class Main {
         vehiculos.add(vehiculo4);
         vehiculos.add(vehiculo5);
         return vehiculos;
+    }
+
+    private static Vehiculo getVehiculo(ArrayList<Vehiculo> vehiculos, String patente) {
+        Vehiculo vehiculoEncontrado = null;
+        for (Vehiculo vehiculo : vehiculos){
+            if (vehiculo.getPatente().equals(patente)){
+                vehiculoEncontrado = vehiculo;
+                break;
+            }
+        }
+        return vehiculoEncontrado;
     }
 }
