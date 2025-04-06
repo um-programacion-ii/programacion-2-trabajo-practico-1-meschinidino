@@ -1,6 +1,7 @@
 package um.prog2;
 
 
+import um.prog2.vehiculo.Auto;
 import um.prog2.vehiculo.Camion;
 import um.prog2.vehiculo.Vehiculo;
 import um.prog2.vehiculo.VehiculoPrinter;
@@ -19,5 +20,7 @@ public class Main {
         VehiculoPrinter.mostrarInfoVehiculo(vehiculo3);
         Camion vehiculo4 = new Camion(4.12312, 2020, "hyundai", "AE 123 AA", true);
         VehiculoPrinter.mostrarInfoVehiculo(vehiculo4);
+        Auto vehiculo5 = new Auto(5.12312, 2021, "hyundai", "AF 123 AA", 4);
+        VehiculoPrinter.mostrarInfoVehiculo(vehiculo5);
     }
 }
