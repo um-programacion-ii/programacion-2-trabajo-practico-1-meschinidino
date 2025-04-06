@@ -1,5 +1,32 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-JQrLgaz)
+
 # 🧠 Trabajo Práctico: Sistema de Gestión de Vehículos (Java + SOLID + GitHub)
+
+# Alumno: Dino Meschini
+### Cómo ejecutar este proyecto:
+- Clonar el repositorio en tu máquina local.
+- Compilar el código
+- Ejecutar el código
+### Requisitos previos:
+- Java JDK 8 o superior instalado.
+- IDE de tu elección (Eclipse, IntelliJ IDEA, etc.) o terminal para compilar y ejecutar.
+- Git instalado para clonar el repositorio.
+
+### Ejemplo de uso:
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Crear vehículos
+        Vehiculo auto = new Auto("ABC123", "Toyota", 2020, 5);
+        Vehiculo camion = new Camion("XYZ789", "Mercedes", 2018, 10000, true);
+
+        // Imprimir información
+        VehiculoPrinter printer = new VehiculoPrinter();
+        printer.imprimir(auto);
+        printer.imprimir(camion);
+    }
+}
+```
 
 ## 📌 Objetivo General
 
